@@ -357,4 +357,84 @@ body {
 
 
     }
+
 }
+
+.rodape {
+    height: 348px;
+    background-color: #F9F9F9;
+    
+}
+.rodape-conteudo{
+    
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.rodape-principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+
+}
+
+.rodape-temos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.rodape-temos-item {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.rodape-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.rodape-form-item {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.rodape-form-input {
+    height: 54px;
+    width: 397px;
+    background: #FFFFFF;
+    border: 0.5px solid #D9D9D9;
+    box-sizing: border-box;
+    padding: 12px 16px 14px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.rodape-form-button {
+    background: #5CA720;
+    border-radius: 0px 5px 5px 0px;
+    height: 54px;
+    width: 152px;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .rodape-redesocial{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 35px;
+    margin-top: 20px;
+    gap: 320px;
+
+  }
+  
