@@ -41,18 +41,8 @@ body {
     justify-content: space-between;
 }
 
-.conteudo-banner {
-    display: block;
-    height: 600px;
-    border-bottom: 0.2px solid #A5A1A1;
-    margin-bottom: 7px;
 
-}
 
-.conteudo-banner-img {
-    width: 100%;
-    height: 505px
-}
 
 
 
@@ -96,7 +86,21 @@ body {
     color: #5CA720;
 }
 
+
 @media screen and (min-width: 1024px) {
+    .conteudo-banner-img {
+        width: 100%;
+        height: 505px
+    }
+
+    .conteudo-banner {
+        display: block;
+        height: 600px;
+        border-bottom: 0.2px solid #A5A1A1;
+        margin-bottom: 7px;
+
+    }
+
     .cabecalho {
         display: flex;
         flex-direction: row;
@@ -176,6 +180,52 @@ body {
 
 
     }
+
+    .rodape-principal {
+        display: flex;
+        justify-content: space-around;
+        padding: 35px;
+        flex-wrap: wrap;
+        gap: 12px;
+
+    }
+
+    .rodape-form-input {
+        height: 54px;
+        width: 397px;
+        background: #FFFFFF;
+        border: 0.5px solid #D9D9D9;
+        box-sizing: border-box;
+        padding: 12px 16px 14px;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .rodape-form-button {
+        background: #5CA720;
+        border-radius: 0px 5px 5px 0px;
+        height: 54px;
+        width: 152px;
+        border: none;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+
+    .rodape-temos-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .rodape-temos {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 22px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -260,9 +310,87 @@ body {
 
 
     }
+
+    .rodape-principal {
+        display: flex;
+        justify-content: flex-start;
+        padding: 35px;
+        flex-wrap: wrap;
+        gap: 12px;
+
+    }
+
+    .rodape-form-input {
+        height: 54px;
+        width: 397px;
+        background: #FFFFFF;
+        border: 0.5px solid #D9D9D9;
+        box-sizing: border-box;
+        padding: 12px 16px 14px;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .rodape-form-button {
+        background: #5CA720;
+        border-radius: 0px 5px 5px 0px;
+        height: 54px;
+        width: 397px;
+        border: none;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .conteudo-banner-img {
+        width: 100%;
+        height: 221.09px;
+    }
+
+    .conteudo-banner {
+        display: block;
+
+        border-bottom: 0.2px solid #A5A1A1;
+        margin-bottom: 7px;
+
+    }
+
+    .rodape-form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 40px;
+
+    }
+
+    .rodape-temos-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+
+    .rodape-temos {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 767px) {
+    .conteudo-banner-img {
+        width: 100%;
+        height: 221.09px;
+    }
+
+    .conteudo-banner {
+        display: block;
+
+        border-bottom: 0.2px solid #A5A1A1;
+        margin-bottom: 7px;
+
+    }
 
     .cabecalho {
         display: flex;
@@ -358,48 +486,92 @@ body {
 
     }
 
+    .rodape-principal {
+        display: flex;
+        justify-content: flex-start;
+        padding: 35px;
+        flex-wrap: wrap;
+        gap: 12px;
+
+    }
+
+    .rodape-principal {
+        display: flex;
+        justify-content: flex-start;
+        padding: 35px;
+        flex-wrap: wrap;
+        gap: 12px;
+
+    }
+
+    .rodape-form-input {
+        height: 54px;
+        width: 350px;
+        background: #FFFFFF;
+        border: 0.5px solid #D9D9D9;
+        box-sizing: border-box;
+        padding: 12px 16px 14px;
+        border-radius: 5px;
+    }
+
+    .rodape-form-button {
+        background: #5CA720;
+        border-radius: 5px;
+        height: 54px;
+        width: 350px;
+        border: none;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .rodape-form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 40px;
+
+    }
+
+    .rodape-temos-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+
+    }
+
+    .rodape-temos {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 15px;
+    }
 }
 
 .rodape {
-    height: 348px;
+
     background-color: #F9F9F9;
-    
+    height: 348px;
 }
-.rodape-conteudo{
-    
-    max-width: 1800px;
+
+.rodape-conteudo {
+    max-width: 1880px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
-    
-}
-
-.rodape-principal {
-    display: flex;
-    justify-content: space-around;
-    padding: 35px;
 
 }
 
-.rodape-temos {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
 
-.rodape-temos-item {
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-}
 
-.rodape-form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
+
+
+
+
 
 .rodape-form-item {
     font-family: 'Lato', sans-serif;
@@ -407,34 +579,39 @@ body {
     font-size: 20px;
 }
 
-.rodape-form-input {
-    height: 54px;
-    width: 397px;
-    background: #FFFFFF;
-    border: 0.5px solid #D9D9D9;
-    box-sizing: border-box;
-    padding: 12px 16px 14px;
-    border-radius: 5px 0px 0px 5px;
-}
 
-.rodape-form-button {
-    background: #5CA720;
-    border-radius: 0px 5px 5px 0px;
-    height: 54px;
-    width: 152px;
-    border: none;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-  }
-  .rodape-redesocial{
+.rodape-redesocial {
+    border-top: 0.5px solid #D9D9D9;
+    padding: 40px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding: 35px;
-    margin-top: 20px;
-    gap: 320px;
+}
 
-  }
-  
+.rodape-item {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    width: 43px;
+    height: 43px;
+}
+
+.rodape-item2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+.rodape-img {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    padding: 7px;
+    align-items: center;
+}
