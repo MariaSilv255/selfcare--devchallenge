@@ -1,3 +1,6 @@
+.conteudo-principal-img{
+    transition: all 0.5s;
+}
 .conteudo-principal-img:hover{
     transform: scale(1.1);
     transition: 500ms linear;
